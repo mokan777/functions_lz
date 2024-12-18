@@ -1,7 +1,6 @@
-def summ(num):
-    Sum = 0 # начальное значение
-    for i in num: 
-        Sum = Sum + i # находим находим сумму всех чисел в списке
-    return Sum
-
-print('сумма всех чисел в списке:',summ([1,3,5,7,9]))
+def summa(n):
+    if n == 1:
+        return n 
+    return n + summa (n - 1)
+print (summa)
+   
